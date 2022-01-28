@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //Visualisering av Verden
 //W----[+][+][+][+]--\\___//__________________--[+][+][+][+]----E
@@ -28,7 +30,7 @@ var slot2e string = ""
 var slot3e string = ""
 var slot4e string = ""
 
-func World() {
+func main() {
 	boat = "\\_[" + slot1b + "]" + "__" + "[" + slot2b + "]_//"
 	fmt.Print(boat)
 }

@@ -1,11 +1,12 @@
-package main
+package quoter
 
 import (
 	"fmt"
+
 	"rsc.io/quote"
 )
 
-func main() {
+func Givequote() {
 	fmt.Print(Glass())
 	fmt.Print(Hello())
 	fmt.Print(Opt())
