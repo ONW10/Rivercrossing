@@ -1,4 +1,4 @@
-package main
+package mainworld
 
 import (
 	"fmt"
@@ -61,19 +61,19 @@ func PlaceThings() {
 
 func position() {
 	if HumanP == "West" {
-		goToWestSlot("Farmer")
+		goToWestSlot("Human")
 	} else if HumanP == "Boat" {
-		goToBoatSlot("Farmer")
+		goToBoatSlot("Human")
 	} else if HumanP == "East" {
-		goToEastSlot("Farmer")
+		goToEastSlot("Human")
 	}
 
 	if ChickP == "West" {
-		goToWestSlot("Chicken")
+		goToWestSlot("Chick")
 	} else if ChickP == "Boat" {
-		goToBoatSlot("Chicken")
+		goToBoatSlot("Chick")
 	} else if ChickP == "East" {
-		goToEastSlot("Chicken")
+		goToEastSlot("Chick")
 	}
 
 	if FoxP == "West" {
